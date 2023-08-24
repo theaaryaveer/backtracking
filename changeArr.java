@@ -9,8 +9,8 @@ public class changeArr{
 
         //recursion case
         arr[i] = val;
-        changearr(arr, i+1, val+1);
-        arr[i] = arr[i]-2;
+        changearr(arr, i+1, val+1); //function call step
+        arr[i] = arr[i]-2; //backtracking step
 
     }
     public static void printArr(int arr[]){
